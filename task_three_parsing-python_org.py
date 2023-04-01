@@ -31,7 +31,7 @@ def symbol_count(link):
         char_counts[char] = char_counts.get(char, 0) + 1
 
     for char, count in char_counts.items():
-        result += f"Character '{char}' occurs {count} times in the page code.\n"
+        result += f"+ Символ '{char}' встречается в коде страницы {count} раз.\n"
     return result
 
 
