@@ -4,38 +4,21 @@
 
 Character '
 ' occurs 587 times in the page code.
-
 Character ' ' occurs 1046 times in the page code.
-
 Character 'W' occurs 12 times in the page code.
-
-
 Character 'e' occurs 486 times in the page code.
-
 Character 'l' occurs 161 times in the page code.
-
 Character 'c' occurs 146 times in the page code.
-
 Character 'o' occurs 405 times in the page code.
-
 Character 'm' occurs 118 times in the page code.
-
 Character 't' occurs 429 times in the page code.
-
 Character 'P' occurs 103 times in the page code.
-
 Character 'y' occurs 133 times in the page code.
-
 Character 'h' occurs 152 times in the page code.
-
 Character 'n' occurs 404 times in the page code.
-
 Character '.' occurs 40 times in the page code.
-
 Character 'r' occurs 291 times in the page code.
-
 Character 'g' occurs 72 times in the page code.
-
 Character 'N' occurs 21 times in the page code.
 Character 'i' occurs 322 times in the page code.
 Character ':' occurs 18 times in the page code.
