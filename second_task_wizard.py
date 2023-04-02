@@ -8,23 +8,23 @@
 """
 
 
-def find_counterfeit_basket(num_of_bask, coin_weig, weig_diff, total_weig_coins):
+def find_counterfeit_basket(num_of_bask, coin_weigh, weigh_diff, total_weigh_coins):
     """
     total_weight: вычисляет общий вес монет, но не используется напрямую при расчете количества фальшивых корзин.
     Полезная промежуточная переменная которая может быть использована для контроля расчетов.
     """
-    if weig_diff == coin_weig:
+    if weigh_diff == coin_weigh:
         return num_of_bask
-    total_weight = (num_of_bask*(num_of_bask+1)//2) * coin_weig
-    taken_weight = (1+num_of_bask-1)*(num_of_bask-1)//2 * coin_weig
-    diff = total_weig_coins - taken_weight
-    counterfeit_basket = diff // weig_diff + 1
+    total_weight = (num_of_bask*(num_of_bask+1)//2) * coin_weigh
+    taken_weight = (1+num_of_bask-1)*(num_of_bask-1)//2 * coin_weigh
+    diff = total_weigh_coins - taken_weight
+    counterfeit_basket = diff // weigh_diff + 1
     return counterfeit_basket
 
 
-N = 5          # Общее количество корзин
-w = 10            # Вес каждой обычной монеты в граммах
-d = 2             # Разница в весе между обычными монетами и поддельными монетами в граммах
+N = 5      # Общее количество корзин
+w = 10     # Вес каждой обычной монеты в граммах
+d = 2      # Разница в весе между обычными монетами и поддельными монетами в граммах
 P = 105    # Общий вес выбранных монет в граммах
 
 fake_basket = find_counterfeit_basket(N, w, d, P)
