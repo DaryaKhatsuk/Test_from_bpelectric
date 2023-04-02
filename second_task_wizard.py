@@ -22,10 +22,10 @@ def find_counterfeit_basket(num_of_bask, coin_weig, weig_diff, total_weig_coins)
     return counterfeit_basket
 
 
-num_of_baskets = 5          # Общее количество корзин
-coin_weight = 10            # Вес каждой обычной монеты в граммах
-weight_diff = 2             # Разница в весе между обычными монетами и поддельными монетами в граммах
-total_weight_coins = 105    # Общий вес выбранных монет в граммах
+N = 5          # Общее количество корзин
+w = 10            # Вес каждой обычной монеты в граммах
+d = 2             # Разница в весе между обычными монетами и поддельными монетами в граммах
+P = 105    # Общий вес выбранных монет в граммах
 
-fake_basket = find_counterfeit_basket(num_of_baskets, coin_weight, weight_diff, total_weight_coins)
+fake_basket = find_counterfeit_basket(N, w, d, P)
 print(fake_basket)
